@@ -4,6 +4,8 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 import { Schedule } from "@/components/ui/schedule";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
+import { Separator } from "@/components/ui/separator";
+import Footer from "@/components/footer-02/footer-02"; // Add this import
 import {
   IconHome,
   IconCalendarEvent,
@@ -57,6 +59,13 @@ export default function Home() {
       </div>
       
       <Schedule />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Separator className="h-1 bg-neutral-200 dark:bg-neutral-800 relative z-10" />
+      </div>
+      
+      <Footer />
+      
       <FloatingDock
         items={dockItems}
         desktopClassName="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50"
