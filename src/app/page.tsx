@@ -178,7 +178,7 @@ const data = [
 
 ];
 
-export const products = [
+const products = [
   {
     title: "Cybersecurity",
     link: "#",
