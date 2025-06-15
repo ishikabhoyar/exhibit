@@ -181,7 +181,9 @@ const Footer = () => {
               <Link href="https://iste.kjsce.somaiya.edu/" target="_blank">
               ISTE KJSCE
               </Link>
-              . All rights reserved. Made with love by Ishika Bhoyar.
+              . All rights reserved. 
+              <br/>
+              Made with ♡ by Ishika Bhoyar.
             </span>
 
             <div className="flex items-center gap-5 text-muted-foreground">
